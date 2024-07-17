@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Kanit", sans-serif;
+}
+#nav{
+    background-color: rgb(213, 255, 255);
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.bcci{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+#bcci-logo{
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.bcci-text{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.nav-titles{
+    display: flex;
+    gap: 2rem;
+}
+.title{
+    text-decoration: none;
+    color: black;
+}
+.title:hover{
+    color: rgb(96, 96, 96);
+}
+#hero{
+    background-color: rgb(215, 215, 215);
+    border-radius: 0.7rem;
+    display: flex;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 1px 1px 3px black;
+}
+#flag{
+    width: 17rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+#bcci-heading{
+    font-size: 3rem;
+    font-weight: bold;
+}
+#bcci-info{
+    margin: 0 5.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(167, 167, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#big-bcci-logo{
+    width: 13rem;
+    height: 13rem;
+}
+#info{
+    font-size: 1rem;
+}
+
+#app-info{
+    display: flex;
+    margin: 2rem 5.5rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.store-img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+#app-img{
+    width: 10rem;
+    height: 10rem;
+}
+#app-details{
+    max-width: 30rem;
+
+}
+#info-heading{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+#info-desc{
+    color: rgb(76, 76, 76);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+.store{
+    display: flex;
+    gap: 2rem;
+}
+.store-box{
+    width: 2.5rem;
+    height: 2.5rem;
+    align-content: center;
+    padding: 0.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+}
+#app-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 50%;
+    background-color: rgb(216, 255, 255);
+    border: 0.01rem solid blue;
+}
+
+#contact{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(204, 202, 202);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+#contact-title{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+#contact-components{
+    display: flex;
+    margin: 1rem auto;
+    gap: 4rem;
+}
+.contact-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+}
+.contact-div:hover{
+    color: rgb(52, 52, 52);
+    cursor: pointer;
+}
+#copyright{
+    text-align: center;
+    color: rgb(130, 130, 130);
+    font-size: 0.6rem;
+}
+
